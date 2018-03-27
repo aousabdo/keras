@@ -102,3 +102,8 @@ print(metrics)
 # generate predictions 
 network %>% predict_classes(test_images[1:10, ])
 
+# tensros
+x <- 1:5
+print(str(x))
+print(str(as.array(x)))
+print(dim(as.array(x)))
